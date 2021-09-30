@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+            <header><h1>PYTHON</h1></header>
+            <ul>
+                <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+                <li><a href="#Python_Features" class="nav-link">Python Features</a></li>
+                <li><a href="#Python_Overview" class="nav-link">Python Overview</a></li>
+                <li><a href="#Hello_World" class="nav-link">Hello World</a></li>    
+                <li><a href="#Identifiers" class="nav-link">Identifiers</a></li>    
+                <li><a href="#Variables" class="nav-link">Variables</a></li> 
+                <li><a href="#Basic_Operators" class="nav-link">Basic Operators</a></li> 
+                <li><a href="#Decision_Making" class="nav-link" >Decision Making</a></li>
+                <li><a href="#Loops" class="nav-link" >Loops</a></li>
+                <li><a href="#Overview_of_OOP_Terminology" class="nav-link">Overview of OOP Terminology</a></li>
+            </ul>
+    </nav>
+    <main id="main-doc">
+        <!-- Introduction -->
+        <section class="main-section" id="Introduction">
+            <header><h2>Introduction</h2></header><br>
+                <p>Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL). This tutorial gives enough understanding on Python programming language.</p>
+            
+        </section>
+        <!-- Features -->
+        <section class="main-section" id="Python_Features">
+            <header><h2>Python Features</h2></header>
+            <p>Python's features include −</p><br>
+            <ul>
+                <li><span>Easy-to-learn − </span>Python has few keywords, simple structure, and a clearly defined syntax. This allows the student to pick up the language quickly.</li>
+                <li><span>Easy-to-read −</span> Python code is more clearly defined and visible to the eyes.</li>
+                <li><span>Easy-to-maintain − </span>Python's source code is fairly easy-to-maintain.</li>
+                <li><span>A broad standard library −</span> Python's bulk of the library is very portable and cross-platform compatible on UNIX, Windows, and Macintosh.</li>
+                <li><span>Interactive Mode −</span> Python has support for an interactive mode which allows interactive testing and debugging of snippets of code.</li>
+            </ul><br>
+            <p>Apart from the above-mentioned features, Python has a big list of good features, few are listed below −</p><br>
+            <ul>
+                <li>It supports functional and structured programming methods as well as OOP.</li>
+                <li>It can be used as a scripting language or can be compiled to byte-code for building large applications.                </li>
+                <li>It provides very high-level dynamic data types and supports dynamic type checking.
+
+                </li>
+                <li>It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.</li>
+            </ul>
+        </section>
+    
+        <!--  Overview -->
+        <section class="main-section" id="Python_Overview">
+            <header><h2>Python Overview</h2></header><br>
+            <p>Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages.</p><br>
+            <ul>
+                <li><span>Python is Interpreted −</span> Python is processed at runtime by the interpreter. You do not need to compile your program before executing it. This is similar to PERL and PHP.</li>
+                <li><span>Python is Interactive − </span>You can actually sit at a Python prompt and interact with the interpreter directly to write your programs.</li>
+                <li><span>Python is Object-Oriented −</span> Python supports Object-Oriented style or technique of programming that encapsulates code within objects.</li>
+            </ul>
+        </section>
+        <!-- Hello World -->
+        <section class="main-section" id="Hello_World">
+            <header><h2>Hello World</h2></header><br>
+            <p>Invoking the interpreter with a script parameter begins execution of the script and continues until the script is finished. When the script is finished, the interpreter is no longer active.</p>
+            <p> Let us write a simple Python program in a script. Python files have extension .py. Type the following source code in a test.py file −</p><br>
+            <code>print "Hello, Python!"</code>
+        </section>
+        <!-- Identifiers -->
+        <section class="main-section" id="Identifiers">
+            <header><h2>Identifiers</h2></header><br>
+            <p>A Python identifier is a name used to identify a variable, function, class, module or other object. An identifier starts with a letter A to Z or a to z or an underscore (_) followed by zero or more letters, underscores and digits (0 to 9).</p>
+            <p>Python does not allow punctuation characters such as @, $, and % within identifiers. Python is a case sensitive programming language. Thus, Manpower and manpower are two different identifiers in Python.</p>
+        </section>
+        <!-- Variables -->
+        <section class="main-section" id="Variables">
+            <header><h2>Variables</h2></header><br>
+            <p>Variables are nothing but reserved memory locations to store values. This means that when you create a variable you reserve some space in memory.</p>
+
+            <p>Based on the data type of a variable, the interpreter allocates memory and decides what can be stored in the reserved memory. Therefore, by assigning different data types to variables, you can store integers, decimals or characters in these variables.</p>
+<br>
+            <h4>Assigning Values to Variables</h4><br>
+            <p>Python variables do not need explicit declaration to reserve memory space. The declaration happens automatically when you assign a value to a variable. The equal sign (=) is used to assign values to variables.</p>
+            <p>The operand to the left of the = operator is the name of the variable and the operand to the right of the = operator is the value stored in the variable.</p>
+            <br>
+            <p>The operand to the left of the = operator is the name of the variable and the operand to the right of the = operator is the value stored in the variable. For example −</p><br>
+            <code>#!/usr/bin/python
+<br><br>
+                counter = 100          # An integer assignment <br>
+                miles   = 1000.0       # A floating point <br>
+                name    = "John"       # A string
+                <br><br>
+                print counter <br>
+                print miles <br>
+                print name</code><br><br>
+                <p>Here, 100, 1000.0 and "John" are the values assigned to counter, miles, and name variables, respectively. This produces the following result −</p>
+                <br>
+                <code>100 <br>
+                    1000.0 <br>
+                    John</code>
+        </section>
+        <!-- Basic Operators -->
+        <section class="main-section" id="Basic_Operators">
+            <header><h2>Basic Operators</h2></header><br>
+            <p>Operators are the constructs which can manipulate the value of operands.</p>
+            <p>Consider the expression 4 + 5 = 9. Here, 4 and 5 are called operands and + is called operator.</p>
+            <h4>Types of Operator</h4><br>
+            <p>Python language supports the following types of operators.</p>
+            <ul>
+                <li>Arithmetic Operators</li>
+                <li>(Relational) Operators</li> 
+                <li>Assignment Operators</li>
+                <li>Logical Operators</li>
+                <li>Bitwise Operators</li>
+                <li>Membership Operators</li>
+                <li>Identity Operators</li>
+            </ul>
+        </section>
+        <!-- Decision Making -->
+        <section class="main-section" id="Decision_Making">
+            <header><h2>Decision Making</h2></header><br>
+            <p>Decision making is anticipation of conditions occurring while execution of the program and specifying actions taken according to the conditions.</p>
+            <p>Decision structures evaluate multiple expressions which produce TRUE or FALSE as outcome. You need to determine which action to take and which statements to execute if outcome is TRUE or FALSE otherwise.</p>
+            <p>Following is the general form of a typical decision making structure found in most of the programming languages −</p>
+            <img src="https://www.tutorialspoint.com/python/images/decision_making.jpg" alt="">
+            <h4>Single Statement Suites</h4><br>
+            <p>If the suite of an if clause consists only of a single line, it may go on the same line as the header statement.</p>
+            <p>Here is an example of a one-line if clause −</p>
+            <code>#!/usr/bin/python
+<br>
+                var = 100 <br><br>
+                if ( var == 100 ) : print "Value of expression is 100" <br>
+                print "Good bye!"</code>
+<br><br>
+                <p>When the above code is executed, it produces the following result −</p><br>
+                <code>Value of expression is 100 <br>
+                    Good bye!</code>
+                
+        </section>
+        <!-- Loops -->
+        <section class="main-section" id="Loops">
+            <header><h2>Loops</h2></header><br>
+            <p>In general, statements are executed sequentially: The first statement in a function is executed first, followed by the second, and so on. There may be a situation when you need to execute a block of code several number of times.</p>
+            <p>Programming languages provide various control structures that allow for more complicated execution paths.</p>
+            <p>A loop statement allows us to execute a statement or group of statements multiple times. The following diagram illustrates a loop statement −</p>
+            <img src="https://www.tutorialspoint.com/python/images/loop_architecture.jpg" alt="">
+        </section>
+        <!-- oop -->
+        <section class="main-section" id="Overview_of_OOP_Terminology">
+            <header><h2>Overview of OOP Terminology</h2></header><br>
+            <ul>
+                <li>Class − A user-defined prototype for an object that defines a set of attributes that characterize any object of the class. The attributes are data members (class variables and instance variables) and methods, accessed via dot notation.</li>
+                <li>Class variable − A variable that is shared by all instances of a class. Class variables are defined within a class but outside any of the class's methods. Class variables are not used as frequently as instance variables are.</li>
+                <li>Data member − A class variable or instance variable that holds data associated with a class and its objects.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
